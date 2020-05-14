@@ -7,6 +7,7 @@
 #include <map>
 #include <random>
 #include <iterator> 
+#include <fstream>
 #include <algorithm>
 
 #define N 100
@@ -108,6 +109,11 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	ostream_iterator<int> ositer(cout, ", ");
 
+	ofstream outfile("ITER.TXT"); //создание файлового объекта
+	ostream_iterator<int> ositer2(outfile, " "); //итератор
+	//записать список в файл
+
+
 	set<int> dSet;
 	map <int, double> strMap;
 
@@ -115,8 +121,9 @@ int main()
 
 	set<int>::iterator iter = dSet.begin();
 
-
+	copy(dSet.begin(), dSet.end(), ositer2);
 	copy(dSet.begin(), dSet.end(), ositer);
+	outfile << endl;
 
 	cout << endl << "Введите значение удаляемого элемента: ";
 	int num;
@@ -143,6 +150,7 @@ int main()
 
 	IncreaseByFirst(&dSet);
 	cout << endl << "Увеличено на значение первого элемента." << endl;
+	copy(dSet.begin(), dSet.end(), ositer2);
 	copy(dSet.begin(), dSet.end(), ositer);
 	cout << endl << endl;
 

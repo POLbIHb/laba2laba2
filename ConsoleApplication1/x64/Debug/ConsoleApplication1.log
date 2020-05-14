@@ -1,31 +1,30 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (ConsoleApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  pch.cpp
   ConsoleApplication1.cpp
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(77,16): warning C4244: =: преобразование "_Ty2" в "int", возможна потеря данных
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(77,16): warning C4244:         with
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(77,16): warning C4244:         [
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(77,16): warning C4244:             _Ty2=double
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(77,16): warning C4244:         ]
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(85,14): warning C4244: =: преобразование "_Ty2" в "int", возможна потеря данных
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(85,14): warning C4244:         with
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(85,14): warning C4244:         [
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(85,14): warning C4244:             _Ty2=double
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(85,14): warning C4244:         ]
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(78,16): warning C4244: =: преобразование "_Ty2" в "int", возможна потеря данных
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(78,16): warning C4244:         with
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(78,16): warning C4244:         [
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(78,16): warning C4244:             _Ty2=double
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(78,16): warning C4244:         ]
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(86,14): warning C4244: =: преобразование "_Ty2" в "int", возможна потеря данных
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(86,14): warning C4244:         with
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(86,14): warning C4244:         [
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(86,14): warning C4244:             _Ty2=double
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(86,14): warning C4244:         ]
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,16): warning C4244: инициализация: преобразование "double" в "_Ty1", возможна потеря данных
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,16): warning C4244:         with
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,16): warning C4244:         [
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,16): warning C4244:             _Ty1=int
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,16): warning C4244:         ]
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(42): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<int,double>::pair<double&,int&,0>(_Other1,_Other2) noexcept"
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(42): message :         with
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(42): message :         [
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(42): message :             _Other1=double &,
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(42): message :             _Other2=int &
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(42): message :         ]
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(42): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<int,double>::pair<double&,int&,0>(_Other1,_Other2) noexcept"
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(42): message :         with
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(42): message :         [
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(42): message :             _Other1=double &,
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(42): message :             _Other2=int &
-C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(42): message :         ]
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(43): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<int,double>::pair<double&,int&,0>(_Other1,_Other2) noexcept"
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(43): message :         with
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(43): message :         [
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(43): message :             _Other1=double &,
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(43): message :             _Other2=int &
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(43): message :         ]
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(43): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<int,double>::pair<double&,int&,0>(_Other1,_Other2) noexcept"
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(43): message :         with
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(43): message :         [
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(43): message :             _Other1=double &,
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(43): message :             _Other2=int &
+C:\Users\illo\source\repos\Lab-2-master\ConsoleApplication1\ConsoleApplication1.cpp(43): message :         ]
   ConsoleApplication1.vcxproj -> C:\Users\illo\source\repos\Lab-2-master\x64\Debug\lab2.exe
